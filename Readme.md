@@ -1,21 +1,21 @@
 # Approach of Largest compound word approach
 
-- I Created a program using Javascript
-
-- Step 1 - i imported two libraries which is
+- I created a program using Javascript
+- 
+- I imported two libraries which is
 
   - file system(fs) - which is used to work with files in our program if we want to use one
-  - Readline - it used to read the file in efficint way
+  - Readline - it is used to read the file in an efficient way
 
-- Step 2 - Now I created a isCompundWord functions to check if the give word is compound word or not
+- Now I created an isCompundWord function to check if the given word is a compound word or not
 
-  - We checking is compund word or not using for loop and it runs to end of the length and it checks value if the suffix and prefix is present or not and if suffix is not present it makes recursive call using suffix and checks in again if present or not
+  - We check if a compound word is not using a for loop and it runs to the end of the length and checks the value of the suffix and whether the prefix are present or not if the suffix is not present it makes a recursive call using the suffix and checks in again if present or not
 
-- we creating a async function to process input file
+- we create an async function to process the input file
 
-  - we creating first a set of array and reading a file line by line and trimming line and adding input file words in set
+  - we first a set of arrays and read a file line by line and trim and add input file words in the set
 
-  - now we sorting words according the length
-  - now finding the longest and second longest word using isCompoundWord function(checking if word is compound or not)
+  - now we sort words according to the length
+  - now finding the longest and second longest word using the isCompoundWord function(checking if the word is compound or not)
 
-- Lastly getting a time taken by the program by calling the function and using then method
+- Lastly getting the time taken by the program by calling the function and using the method
